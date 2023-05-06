@@ -8,7 +8,7 @@
 # docker run -p 80:80 -it --link <elk-container-name>:elk \
 #     --name filebeat-nginx-example filebeat-nginx-example
 
-FROM nginx
+FROM nginx:1-bullseye
 MAINTAINER Sebastien Pujadas http://pujadas.net
 ENV REFRESHED_AT 2020-10-02
 
